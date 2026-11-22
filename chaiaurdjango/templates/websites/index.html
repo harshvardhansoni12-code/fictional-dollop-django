@@ -1,13 +1,5 @@
-{% load static %}
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Page Title</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}" />
-  </head>
-  <body>
-    <h1>rff</h1>
-  </body>
-</html>
+{% extends "layout.html" %} 
+{% block title %}Doom{% endblock %} 
+{% block content %}
+<h2>doom is here</h2>
+{% endblock %}
