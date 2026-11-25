@@ -7,4 +7,4 @@ def about(request):
     return HttpResponse("this is about page")
 
 def contact(request):
-    return HttpResponse("this is  page")    
+    return HttpResponse("this is contact page")    
